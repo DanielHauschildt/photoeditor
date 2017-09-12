@@ -10,7 +10,7 @@ class PhotoEditor extends Component {
       <ReactComponent
         apiKey='xxxxxxx'
         assets={{
-          baseUrl: '/node_modules/photoeditorsdk/assets'
+          baseUrl: process.env.PUBLIC_URL + '/assets'
         }}
         style={{
           width: 800,
